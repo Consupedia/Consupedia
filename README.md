@@ -1,9 +1,17 @@
 # Consupedia
 
+
+```php
+require_once('Cosupedia/GapmindReader.php');
+```
+
+
 ```php
 $IndicatorPoverty = GapmindReader::get(”Indicator_Poverty.xlsx");
 $IndicatorPoverty->country("Malaysia")->getMeanValue(10); // Returns mean-value from the last 10 years
 ```
+
+
 
 
 #### Mål 1: Ingen fattigdom
